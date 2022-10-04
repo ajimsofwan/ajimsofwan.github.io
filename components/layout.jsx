@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 
 const Layout = ({ children }) => {
-
   const [hamburger, setHamburger] = useState(false);
   const handleHamburger = () => setHamburger(hamburger ? false : true);
   const [navbar, setNavbar] = useState(false);
@@ -111,8 +110,8 @@ const Layout = ({ children }) => {
           </div>
         </div>
       </header>
-    { children }
-    <footer className="bg-dark pt-24 pb-12">
+      {children}
+      <footer className="bg-dark pt-24 pb-12">
         <div className="container">
           <div className="flex flex-wrap">
             <div className="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">
@@ -302,7 +301,7 @@ const Layout = ({ children }) => {
         </div>
       </footer>
     </>
-    );
+  );
 };
 
 export default Layout;
