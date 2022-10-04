@@ -67,7 +67,7 @@ export default function Home() {
                 Tentang Saya
               </h4>
               <h2 className="font-bold text-dark text-3xl mb-5 max-w-md lg:text-4xl">
-                Mari bekajar web programing
+                Mari belajar web programing
               </h2>
               <p className="font-medium font-base text-secondary lg:text-lg">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
