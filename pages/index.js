@@ -86,6 +86,7 @@ export default function Home() {
                 <a
                   href="https://www.facebook.com/msofwanaji"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
                 >
                   <svg
@@ -102,6 +103,7 @@ export default function Home() {
                 <a
                   href="https://www.instagram.com/ajimsofwan/"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
                 >
                   <svg
@@ -118,6 +120,7 @@ export default function Home() {
                 <a
                   href="https://www.linkedin.com/in/ajimsofwan/"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
                 >
                   <svg
@@ -134,6 +137,7 @@ export default function Home() {
                 <a
                   href="https://www.tiktok.com/@ajimsofwan"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
                 >
                   <svg
@@ -256,29 +260,25 @@ export default function Home() {
           <div className="w-full px-4">
             <div className="flex flex-wrap items-center justify-center">
               <a
-                href=""
-                target="_blank"
+                href="#"
                 className="max-w-[120px] mx-4 py-4 grayscale opacity-60 trasition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8"
               >
                 <img src="assets/img/clients/google.svg" alt="Google" />
               </a>
               <a
-                href=""
-                target="_blank"
+                href="#"
                 className="max-w-[120px] mx-4 py-4 grayscale opacity-60 trasition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8"
               >
                 <img src="assets/img/clients/gojek.svg" alt="Gojek" />
               </a>
               <a
-                href=""
-                target="_blank"
+                href="#"
                 className="max-w-[120px] mx-4 py-4 grayscale opacity-60 trasition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8"
               >
                 <img src="assets/img/clients/traveloka.svg" alt="Traveloka" />
               </a>
               <a
-                href=""
-                target="_blank"
+                href="#"
                 className="max-w-[120px] mx-4 py-4 grayscale opacity-60 trasition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8"
               >
                 <img src="assets/img/clients/paypal.svg" alt="PayPal" />

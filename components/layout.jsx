@@ -208,6 +208,7 @@ const Layout = ({ children }) => {
               <a
                 href="https://www.facebook.com/msofwanaji"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
               >
                 <svg
@@ -224,6 +225,7 @@ const Layout = ({ children }) => {
               <a
                 href="https://www.instagram.com/ajimsofwan/"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
               >
                 <svg
@@ -240,6 +242,7 @@ const Layout = ({ children }) => {
               <a
                 href="https://www.linkedin.com/in/ajimsofwan/"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
               >
                 <svg
@@ -256,6 +259,7 @@ const Layout = ({ children }) => {
               <a
                 href="https://www.tiktok.com/@ajimsofwan"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
               >
                 <svg
