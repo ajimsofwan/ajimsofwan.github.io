@@ -107,7 +107,7 @@ const Layout = ({ children }) => {
         <div className="container">
           <div className="flex flex-wrap">
             <div className="w-full px-4 mb-12 font-medium text-slate-300 md:w-1/3">
-              <h2 className="mb-5 text-4xl font-bold text-white">AMS</h2>
+              <h2 className="mb-5 text-4xl font-bold text-white">Portfolio</h2>
               <h3 className="mb-2 text-2xl font-bold">Hubungi Saya</h3>
               <p className="flex items-center group">
                 <svg
@@ -131,75 +131,26 @@ const Layout = ({ children }) => {
               </p>
             </div>
             <div className="w-full px-4 mb-12 font-medium text-slate-300 md:w-1/3">
-              <h3 className="mb-5 text-xl font-semibold">Kategori Tulisan</h3>
+              <h3 className="mb-5 text-xl font-semibold">Clients</h3>
               <ul>
                 <li>
                   <a
-                    href="#"
+                    href="https://akunssh.net"
+                    target="_blank"
+                    rel="dofollow"
                     className="inline-block mb-3 text-base hover:text-primary"
                   >
-                    Tekonlogi
+                    AkunSSH
                   </a>
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="https://tunnel.id"
+                    target="_blank"
+                    rel="dofollow"
                     className="inline-block mb-3 text-base hover:text-primary"
                   >
-                    Gear
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="inline-block mb-3 text-base hover:text-primary"
-                  >
-                    Programing
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div className="w-full px-4 mb-12 font-medium text-slate-300 md:w-1/3">
-              <h3 className="mb-5 text-xl font-semibold">Tautan</h3>
-              <ul>
-                <li>
-                  <a
-                    href="#"
-                    className="inline-block mb-3 text-base hover:text-primary"
-                  >
-                    Beranda
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#about"
-                    className="inline-block mb-3 text-base hover:text-primary"
-                  >
-                    About
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#portfolio"
-                    className="inline-block mb-3 text-base hover:text-primary"
-                  >
-                    Portfolio
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#clients"
-                    className="inline-block mb-3 text-base hover:text-primary"
-                  >
-                    Clients
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#contact"
-                    className="inline-block mb-3 text-base hover:text-primary"
-                  >
-                    Contact
+                    TunnelID
                   </a>
                 </li>
               </ul>
