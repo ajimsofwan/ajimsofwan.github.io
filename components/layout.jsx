@@ -208,7 +208,7 @@ const Layout = ({ children }) => {
           <div className="w-full pt-10 border-t border-slate-700">
             <div className="flex items-center justify-center mb-5">
               <a
-                href="https://www.facebook.com/msofwanaji"
+                href="https://www.facebook.com/ajimsof1"
                 target="_blank"
                 className="flex items-center justify-center mr-3 border rounded-full w-9 h-9 border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
               >
