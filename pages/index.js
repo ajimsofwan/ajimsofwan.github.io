@@ -11,36 +11,35 @@ export default function Home() {
       <section id="hero" className="pt-36">
         <div className="container">
           <div className="flex flex-wrap">
-            <div className="w-full self-center px-4 lg:w-1/2">
+            <div className="self-center w-full px-4 lg:w-1/2">
               <h1 className="text-base font-semibold text-primary md:text-xl lg:text-2xl">
                 Hello semua 👋, saya
-                <span className="block text-bold text-dark text-4xl mt-1 mb-2 lg:text-5xl">
+                <span className="block mt-1 mb-2 text-4xl text-bold text-dark lg:text-5xl">
                   Aji Muhammad Sofwan
                 </span>
               </h1>
-              <h2 className="font-medium text-secondary text-lg mb-5 lg:text-2xl">
-                Back-End Develover &{" "}
-                <span className="text-dark">Front-End Developer</span>
+              <h2 className="mb-5 text-lg font-medium text-secondary lg:text-2xl">
+                Back-End Develover
               </h2>
-              <p className="font-medium text-secondary mb-10 leading-relaxed">
+              <p className="mb-10 font-medium leading-relaxed text-secondary">
                 Belajar web programing itu sangat{" "}
-                <span className="text-dark font-bold">membagongkan!</span>
+                <span className="font-bold text-dark">membagongkan!</span>
               </p>
               <a
                 href="#contact"
-                className="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:opacity-80 transition duration-300 ease-in-out"
+                className="px-8 py-3 text-base font-semibold text-white transition duration-300 ease-in-out rounded-full bg-primary hover:opacity-80"
               >
                 Hubungi Saya
               </a>
             </div>
-            <div className="w-full self-end px-4 lg:w-1/2">
-              <div className="mt-10 relative lg:mt-0 lg:right-0">
+            <div className="self-end w-full px-4 lg:w-1/2">
+              <div className="relative mt-10 lg:mt-0 lg:right-0">
                 <img
                   className="max-w-full mx-auto"
-                  src="/assets/img/aji.png"
-                  alt="Aji"
+                  src="/assets/img/profile.png"
+                  alt="Profile"
                 />
-                <span className="absolute bottom-0 -z-10 left-1/2 -translate-x-1/2 md:scale-125 md:bottom-10">
+                <span className="absolute bottom-0 -translate-x-1/2 -z-10 left-1/2 md:scale-125 md:bottom-10">
                   <svg
                     width="400"
                     height="400"
@@ -59,34 +58,36 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section id="about" className="pt-36 pb-32">
+      <section id="about" className="pb-32 pt-36">
         <div className="container">
           <div className="flex flex-wrap">
             <div className="w-full px-4 mb-10 lg:w-1/2">
-              <h4 className="font-bold uppercase text-primary text-lg mb-3">
+              <h4 className="mb-3 text-lg font-bold uppercase text-primary">
                 Tentang Saya
               </h4>
-              <h2 className="font-bold text-dark text-3xl mb-5 max-w-md lg:text-4xl">
-                Mari belajar web programing
+              <h2 className="max-w-md mb-5 text-3xl font-bold text-dark lg:text-4xl">
+                Tak kenal maka tak tahu
               </h2>
               <p className="font-medium font-base text-secondary lg:text-lg">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-                explicabo recusandae eaque eveniet minima laborum placeat.
+                Saya adalah seseorang yang memiliki fasion di bidang pemograman
+                khususnya pemograman web. Berkelahiran di Kab. Tasikmalaya,
+                jenjang pendidikan terkahir saya adalah SMK dengan jurusan
+                Rekayasa Perangkat Lunak.
               </p>
             </div>
             <div className="w-full px-4 lg:w-1/2 lg:pt-10">
-              <h3 className="font-semibold text-dark text-2xl mb-4 lg:text-3xl">
+              <h3 className="mb-4 text-2xl font-semibold text-dark lg:text-3xl">
                 Mari berteman
               </h3>
-              <p className="font-medium font-base text-secondary mb-6 lg:text-lg">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptate enim dicta magnam eaque, eum blanditiis odit.
+              <p className="mb-6 font-medium font-base text-secondary lg:text-lg">
+                Berikitu ini daftar tautan menuju link media sosial yang saya
+                gunakan.
               </p>
               <div className="flex items-center">
                 <a
-                  href="https://www.facebook.com/msofwanaji"
+                  href="https://www.facebook.com/ajimsof1"
                   target="_blank"
-                  className="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+                  className="flex items-center justify-center mr-3 border rounded-full w-9 h-9 border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
                 >
                   <svg
                     role="img"
@@ -102,7 +103,7 @@ export default function Home() {
                 <a
                   href="https://www.instagram.com/ajimsofwan/"
                   target="_blank"
-                  className="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+                  className="flex items-center justify-center mr-3 border rounded-full w-9 h-9 border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
                 >
                   <svg
                     role="img"
@@ -118,7 +119,7 @@ export default function Home() {
                 <a
                   href="https://www.linkedin.com/in/ajimsofwan/"
                   target="_blank"
-                  className="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+                  className="flex items-center justify-center mr-3 border rounded-full w-9 h-9 border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
                 >
                   <svg
                     role="img"
@@ -134,7 +135,7 @@ export default function Home() {
                 <a
                   href="https://www.tiktok.com/@ajimsofwan"
                   target="_blank"
-                  className="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+                  className="flex items-center justify-center mr-3 border rounded-full w-9 h-9 border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
                 >
                   <svg
                     role="img"
@@ -152,261 +153,110 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section id="portfolio" className="pt-36 pb-16 bg-slate-100">
+      <section id="portfolio" className="pb-16 pt-36 bg-slate-100">
         <div className="container">
           <div className="w-full px-4">
-            <div className="max-w-full mx-auto text-center mb-16">
-              <h4 className="font-bold uppercase text-primary text-lg mb-3">
+            <div className="max-w-full mx-auto mb-16 text-center">
+              <h4 className="mb-3 text-lg font-bold uppercase text-primary">
                 Portfolio
               </h4>
-              <h2 className="font-bold text-dark text-3xl mb-4 md:text-4xl">
+              <h2 className="mb-4 text-3xl font-bold text-dark md:text-4xl">
                 Project Terbaru
               </h2>
               <p className="font-medium text-md text-secondary lg:text-lg">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptatum ut illo commodi, quasi dolores veniam facilis sequi
-                enim voluptate quibusdam?
+                Project terbaru yang pernah saya kerjakan.
               </p>
             </div>
           </div>
-          <div className="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
-            <div className="mb-12 p-4 md:w-1/2">
-              <div className="rounded-md shadow-md overflow-hidden mb-3">
+          <div className="flex flex-wrap justify-center w-full px-4 xl:w-10/12 xl:mx-auto">
+            <div className="p-4 mb-12 md:w-1/2">
+              <div className="flex items-center justify-center p-6 overflow-hidden rounded-lg shadow-lg bg-slate-300 h-80">
                 <img
-                  src="assets/img/portfolio/1.webp"
+                  src="assets/img/portfolio/ssh-web-control.webp"
                   alt="portfolio 1"
                   width="w-full"
                 />
               </div>
-              <h3 className="font-semibold text-xl text-dark mt-5 mb-3">
-                Boardject UI
+              <h3 className="mt-5 mb-3 text-xl font-semibold text-dark">
+                SSH Web Control
               </h3>
               <p className="font-medium text-md text-secondary lg:text-lg">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed,
-                aliquam?
+                Webiste layanan SSH dan VPN dilengkapi dengan control panel
+                untuk management server dan Cloudflare DNS. Menggunakan Next.js
+                13 dan Tailwind CSS.
               </p>
             </div>
-            <div className="mb-12 p-4 md:w-1/2">
-              <div className="rounded-md shadow-md overflow-hidden">
+            <div className="p-4 mb-12 md:w-1/2">
+              <div className="flex items-center justify-center p-6 overflow-hidden bg-blue-200 rounded-lg shadow-lg h-80">
                 <img
-                  src="assets/img/portfolio/2.webp"
+                  src="assets/img/portfolio/tunneling-service.webp"
                   alt="portfolio 1"
                   width="w-full"
                 />
               </div>
-              <h3 className="font-semibold text-xl text-dark mt-5 mb-3">
-                Taskhero UI
+
+              <h3 className="mt-5 mb-3 text-xl font-semibold text-dark">
+                TunnelID Layanan Tunnel
               </h3>
               <p className="font-medium text-md text-secondary lg:text-lg">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed,
-                aliquam?
-              </p>
-            </div>
-            <div className="mb-12 p-4 md:w-1/2">
-              <div className="rounded-md shadow-md overflow-hidden">
-                <img
-                  src="assets/img/portfolio/3.webp"
-                  alt="portfolio 1"
-                  width="w-full"
-                />
-              </div>
-              <h3 className="font-semibold text-xl text-dark mt-5 mb-3">
-                Sprint UI
-              </h3>
-              <p className="font-medium text-md text-secondary lg:text-lg">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed,
-                aliquam?
-              </p>
-            </div>
-            <div className="mb-12 p-4 md:w-1/2">
-              <div className="rounded-md shadow-md overflow-hidden">
-                <img
-                  src="assets/img/portfolio/4.webp"
-                  alt="portfolio 1"
-                  width="w-full"
-                />
-              </div>
-              <h3 className="font-semibold text-xl text-dark mt-5 mb-3">
-                Krejo UI
-              </h3>
-              <p className="font-medium text-md text-secondary lg:text-lg">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed,
-                aliquam?
+                Website layanan Tunnel untuk device dan router. Management
+                server mikrotik dan hosting serta terintegrasi dengan payment
+                gateway QRIS untuk pembayaran client. Menggunakan Codeignter 4
+                dan Bootstrap 4
               </p>
             </div>
           </div>
         </div>
       </section>
-      <section id="clients" className="pt-36 pb-32 bg-slate-800">
+      <section id="clients" className="pb-32 pt-36 bg-slate-800">
         <div className="container">
           <div className="w-full px-4">
-            <div className="max-w-full mx-auto text-center mb-16">
-              <h4 className="font-bold uppercase text-primary text-lg mb-3">
+            <div className="max-w-full mx-auto mb-16 text-center">
+              <h4 className="mb-3 text-lg font-bold uppercase text-primary">
                 Clients
               </h4>
-              <h2 className="font-bold text-white text-3xl mb-4 md:text-4xl">
+              <h2 className="mb-4 text-3xl font-bold text-white md:text-4xl">
                 Yang Pernah Bekerjasama
               </h2>
               <p className="font-medium text-md text-secondary lg:text-lg">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
-                totam nulla libero.
+                Produk / Brand yang pernah bekerja sama.
               </p>
             </div>
           </div>
           <div className="w-full px-4">
             <div className="flex flex-wrap items-center justify-center">
               <a
-                href=""
+                href="https://akunssh.net"
                 target="_blank"
+                rel="dofollow"
                 className="max-w-[120px] mx-4 py-4 grayscale opacity-60 trasition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8"
               >
-                <img src="assets/img/clients/google.svg" alt="Google" />
+                <img src="assets/img/clients/akunssh.svg" alt="AkunSSH" />
               </a>
               <a
-                href=""
+                href="https://tunnel.id"
                 target="_blank"
+                rel="dofollow"
                 className="max-w-[120px] mx-4 py-4 grayscale opacity-60 trasition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8"
               >
-                <img src="assets/img/clients/gojek.svg" alt="Gojek" />
-              </a>
-              <a
-                href=""
-                target="_blank"
-                className="max-w-[120px] mx-4 py-4 grayscale opacity-60 trasition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8"
-              >
-                <img src="assets/img/clients/traveloka.svg" alt="Traveloka" />
-              </a>
-              <a
-                href=""
-                target="_blank"
-                className="max-w-[120px] mx-4 py-4 grayscale opacity-60 trasition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8"
-              >
-                <img src="assets/img/clients/paypal.svg" alt="PayPal" />
+                <img src="assets/img/clients/tunnelid.svg" alt="TunnelID" />
               </a>
             </div>
           </div>
         </div>
       </section>
-      <section id="blog" className="pt-36 pb-32 bg-slate-100">
+      <section id="contact" className="pb-32 pt-36">
         <div className="container">
           <div className="w-full px-4">
-            <div className="max-w-full mx-auto text-center mb-16">
-              <h4 className="font-bold uppercase text-primary text-lg mb-3">
-                Blog
-              </h4>
-              <h2 className="font-bold text-dark text-3xl mb-4 md:text-4xl">
-                Tulisan Terkini
-              </h2>
-              <p className="font-medium text-md text-secondary lg:text-lg">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Aliquid doloribus et laudantium!
-              </p>
-            </div>
-          </div>
-          <div className="flex flex-wrap">
-            <div className="w-full px-4 md:w-1/2 lg:w-1/3">
-              <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
-                <img
-                  src="https://source.unsplash.com/360x200?programing"
-                  alt="programing"
-                  className="w-full"
-                />
-                <div className="py-8 px-6">
-                  <h3>
-                    <a
-                      href="#"
-                      className="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate"
-                    >
-                      Tips Belajar Programing
-                    </a>
-                  </h3>
-                  <p className="font-medium text-md text-secondary mb-4 lg:text-lg">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Molestiae, ducimus!
-                  </p>
-                  <a
-                    href="#"
-                    className="font-semibold text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacity-80"
-                  >
-                    Baca Slengkapnya
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="w-full px-4 md:w-1/2 lg:w-1/3">
-              <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
-                <img
-                  src="https://source.unsplash.com/360x200?mechanical+keyboard"
-                  alt="programing"
-                  className="w-full"
-                />
-                <div className="py-8 px-6">
-                  <h3>
-                    <a
-                      href="#"
-                      className="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate"
-                    >
-                      Jenis Keyboard Mechanical
-                    </a>
-                  </h3>
-                  <p className="font-medium text-md text-secondary mb-4 lg:text-lg">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Officia dolorum odit facere?
-                  </p>
-                  <a
-                    href="#"
-                    className="font-semibold text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacity-80"
-                  >
-                    Baca Slengkapnya
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="w-full px-4 md:w-1/2 lg:w-1/3">
-              <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
-                <img
-                  src="https://source.unsplash.com/360x200?coffee"
-                  alt="programing"
-                  className="w-full"
-                />
-                <div className="py-8 px-6">
-                  <h3>
-                    <a
-                      href="#"
-                      className="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate"
-                    >
-                      Menikmati Secangkir Coffee
-                    </a>
-                  </h3>
-                  <p className="font-medium text-md text-secondary mb-4 lg:text-lg">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Necessitatibus voluptatum dicta possimus!
-                  </p>
-                  <a
-                    href="#"
-                    className="font-semibold text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacity-80"
-                  >
-                    Baca Slengkapnya
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section id="contact" className="pt-36 pb-32">
-        <div className="container">
-          <div className="w-full px-4">
-            <div className="max-w-full mx-auto text-center mb-16">
-              <h4 className="font-bold uppercase text-primary text-lg mb-3">
+            <div className="max-w-full mx-auto mb-16 text-center">
+              <h4 className="mb-3 text-lg font-bold uppercase text-primary">
                 Contact
               </h4>
-              <h2 className="font-bold text-dark text-3xl mb-4 md:text-4xl">
+              <h2 className="mb-4 text-3xl font-bold text-dark md:text-4xl">
                 Hubungi Saya
               </h2>
               <p className="font-medium text-md text-secondary lg:text-lg">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Perspiciatis, excepturi!
+                Jangan sungkan untuk terhubung, silahkan hubungi saya kapanpun.
               </p>
             </div>
           </div>
@@ -415,44 +265,44 @@ export default function Home() {
               <div className="w-full px-4 mb-8">
                 <label
                   htmlFor="name"
-                  className="text-base text-primary font-bold mb-8"
+                  className="mb-8 text-base font-bold text-primary"
                 >
                   Nama
                 </label>
                 <input
                   type="text"
                   id="name"
-                  className="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary"
+                  className="w-full p-3 rounded-md bg-slate-200 text-dark focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary"
                 />
               </div>
               <div className="w-full px-4 mb-8">
                 <label
                   htmlFor="email"
-                  className="text-base text-primary font-bold mb-8"
+                  className="mb-8 text-base font-bold text-primary"
                 >
                   Email
                 </label>
                 <input
                   type="email"
                   id="email"
-                  className="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary"
+                  className="w-full p-3 rounded-md bg-slate-200 text-dark focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary"
                 />
               </div>
               <div className="w-full px-4 mb-8">
                 <label
                   htmlFor="message"
-                  className="text-base text-primary font-bold mb-8"
+                  className="mb-8 text-base font-bold text-primary"
                 >
                   Pesan
                 </label>
                 <textarea
                   type="text"
                   id="message"
-                  className="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary h-32"
+                  className="w-full h-32 p-3 rounded-md bg-slate-200 text-dark focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary"
                 ></textarea>
               </div>
               <div className="w-full px-4 mb-8">
-                <button className="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full w-full hover:opacity-80 hover:shadow-lg transition duration-500 ">
+                <button className="w-full px-8 py-3 text-base font-semibold text-white transition duration-500 rounded-full bg-primary hover:opacity-80 hover:shadow-lg ">
                   Kirim
                 </button>
               </div>

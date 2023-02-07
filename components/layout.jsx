@@ -29,10 +29,10 @@ const Layout = ({ children }) => {
         }`}
       >
         <div className="container block">
-          <div className="flex items-center justify-between relative">
+          <div className="relative flex items-center justify-between">
             <div className="px-4">
-              <a href="#" className="font-bold text-lg text-dark block py-6">
-                Tailwind <span className="text-primary">CSS</span>
+              <a href="#" className="block py-6 text-lg font-bold text-dark">
+                Aji M.<span className="text-primary">Sofwan</span>
               </a>
             </div>
             <div className="flex items-center px-4 mr-0">
@@ -45,9 +45,9 @@ const Layout = ({ children }) => {
                 }`}
                 onClick={handleHamburger}
               >
-                <span className="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
-                <span className="hamburger-line transition duration-300 ease-in-out"></span>
-                <span className="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+                <span className="transition duration-300 ease-in-out origin-top-left hamburger-line"></span>
+                <span className="transition duration-300 ease-in-out hamburger-line"></span>
+                <span className="transition duration-300 ease-in-out origin-bottom-left hamburger-line"></span>
               </button>
               <nav
                 id="nav-menu"
@@ -59,7 +59,7 @@ const Layout = ({ children }) => {
                   <li className="group">
                     <a
                       href="#hero"
-                      className="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                      className="flex py-2 mx-8 text-base text-dark group-hover:text-primary"
                     >
                       Beranda
                     </a>
@@ -67,7 +67,7 @@ const Layout = ({ children }) => {
                   <li className="group">
                     <a
                       href="#about"
-                      className="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                      className="flex py-2 mx-8 text-base text-dark group-hover:text-primary"
                     >
                       About
                     </a>
@@ -75,7 +75,7 @@ const Layout = ({ children }) => {
                   <li className="group">
                     <a
                       href="#portfolio"
-                      className="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                      className="flex py-2 mx-8 text-base text-dark group-hover:text-primary"
                     >
                       Portfolio
                     </a>
@@ -83,23 +83,15 @@ const Layout = ({ children }) => {
                   <li className="group">
                     <a
                       href="#clients"
-                      className="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                      className="flex py-2 mx-8 text-base text-dark group-hover:text-primary"
                     >
                       Clients
                     </a>
                   </li>
                   <li className="group">
                     <a
-                      href="#blog"
-                      className="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
-                    >
-                      Blog
-                    </a>
-                  </li>
-                  <li className="group">
-                    <a
                       href="#contact"
-                      className="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                      className="flex py-2 mx-8 text-base text-dark group-hover:text-primary"
                     >
                       Contact
                     </a>
@@ -111,22 +103,40 @@ const Layout = ({ children }) => {
         </div>
       </header>
       {children}
-      <footer className="bg-dark pt-24 pb-12">
+      <footer className="pt-24 pb-12 bg-dark">
         <div className="container">
           <div className="flex flex-wrap">
-            <div className="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">
-              <h2 className="font-bold text-4xl text-white mb-5">AMS</h2>
-              <h3 className="font-bold text-2xl mb-2">Hubungi Saya</h3>
-              <p>Jl. Rajapolah No.200</p>
-              <p>Tasikmalaya</p>
+            <div className="w-full px-4 mb-12 font-medium text-slate-300 md:w-1/3">
+              <h2 className="mb-5 text-4xl font-bold text-white">AMS</h2>
+              <h3 className="mb-2 text-2xl font-bold">Hubungi Saya</h3>
+              <p className="flex items-center group">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  className="w-5 h-5 mr-2 feather feather-mail group-hover:text-primary"
+                >
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+                <span className="group-hover:text-primary">
+                  &#97;&#106;&#105;&#109;&#115;&#111;&#102;&#119;&#97;&#110;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;
+                </span>
+              </p>
             </div>
-            <div className="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">
-              <h3 className="font-semibold text-xl mb-5">Kategori Tulisan</h3>
+            <div className="w-full px-4 mb-12 font-medium text-slate-300 md:w-1/3">
+              <h3 className="mb-5 text-xl font-semibold">Kategori Tulisan</h3>
               <ul>
                 <li>
                   <a
                     href="#"
-                    className="inline-block text-base hover:text-primary mb-3"
+                    className="inline-block mb-3 text-base hover:text-primary"
                   >
                     Tekonlogi
                   </a>
@@ -134,7 +144,7 @@ const Layout = ({ children }) => {
                 <li>
                   <a
                     href="#"
-                    className="inline-block text-base hover:text-primary mb-3"
+                    className="inline-block mb-3 text-base hover:text-primary"
                   >
                     Gear
                   </a>
@@ -142,20 +152,20 @@ const Layout = ({ children }) => {
                 <li>
                   <a
                     href="#"
-                    className="inline-block text-base hover:text-primary mb-3"
+                    className="inline-block mb-3 text-base hover:text-primary"
                   >
                     Programing
                   </a>
                 </li>
               </ul>
             </div>
-            <div className="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">
-              <h3 className="font-semibold text-xl mb-5">Tautan</h3>
+            <div className="w-full px-4 mb-12 font-medium text-slate-300 md:w-1/3">
+              <h3 className="mb-5 text-xl font-semibold">Tautan</h3>
               <ul>
                 <li>
                   <a
                     href="#"
-                    className="inline-block text-base hover:text-primary mb-3"
+                    className="inline-block mb-3 text-base hover:text-primary"
                   >
                     Beranda
                   </a>
@@ -163,7 +173,7 @@ const Layout = ({ children }) => {
                 <li>
                   <a
                     href="#about"
-                    className="inline-block text-base hover:text-primary mb-3"
+                    className="inline-block mb-3 text-base hover:text-primary"
                   >
                     About
                   </a>
@@ -171,7 +181,7 @@ const Layout = ({ children }) => {
                 <li>
                   <a
                     href="#portfolio"
-                    className="inline-block text-base hover:text-primary mb-3"
+                    className="inline-block mb-3 text-base hover:text-primary"
                   >
                     Portfolio
                   </a>
@@ -179,23 +189,15 @@ const Layout = ({ children }) => {
                 <li>
                   <a
                     href="#clients"
-                    className="inline-block text-base hover:text-primary mb-3"
+                    className="inline-block mb-3 text-base hover:text-primary"
                   >
                     Clients
                   </a>
                 </li>
                 <li>
                   <a
-                    href="#blog"
-                    className="inline-block text-base hover:text-primary mb-3"
-                  >
-                    Blog
-                  </a>
-                </li>
-                <li>
-                  <a
                     href="#contact"
-                    className="inline-block text-base hover:text-primary mb-3"
+                    className="inline-block mb-3 text-base hover:text-primary"
                   >
                     Contact
                   </a>
@@ -208,7 +210,7 @@ const Layout = ({ children }) => {
               <a
                 href="https://www.facebook.com/msofwanaji"
                 target="_blank"
-                className="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+                className="flex items-center justify-center mr-3 border rounded-full w-9 h-9 border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
               >
                 <svg
                   role="img"
@@ -224,7 +226,7 @@ const Layout = ({ children }) => {
               <a
                 href="https://www.instagram.com/ajimsofwan/"
                 target="_blank"
-                className="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+                className="flex items-center justify-center mr-3 border rounded-full w-9 h-9 border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
               >
                 <svg
                   role="img"
@@ -240,7 +242,7 @@ const Layout = ({ children }) => {
               <a
                 href="https://www.linkedin.com/in/ajimsofwan/"
                 target="_blank"
-                className="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+                className="flex items-center justify-center mr-3 border rounded-full w-9 h-9 border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
               >
                 <svg
                   role="img"
@@ -256,7 +258,7 @@ const Layout = ({ children }) => {
               <a
                 href="https://www.tiktok.com/@ajimsofwan"
                 target="_blank"
-                className="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+                className="flex items-center justify-center mr-3 border rounded-full w-9 h-9 border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
               >
                 <svg
                   role="img"
@@ -270,7 +272,7 @@ const Layout = ({ children }) => {
                 </svg>
               </a>
             </div>
-            <p className="font-medium text-xs text-slate-500 text-center">
+            <p className="text-xs font-medium text-center text-slate-500">
               Dibuat dengan ❤️ oleh{" "}
               <span className="font-bold hover:opacity-80">
                 Aji Muhammad Sofwan
@@ -280,7 +282,7 @@ const Layout = ({ children }) => {
                 href="https://nextjs.org/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-bold text-zinc-700 hover:opacity-80"
+                className="font-bold text-sky-500 hover:opacity-80"
               >
                 {" "}
                 Next.js
