@@ -137,7 +137,7 @@ const Layout = ({ children }) => {
                   <a
                     href="https://akunssh.net"
                     target="_blank"
-                    rel="dofollow"
+                    rel="dofollow noreferrer"
                     className="inline-block mb-3 text-base hover:text-primary"
                   >
                     AkunSSH
@@ -147,7 +147,7 @@ const Layout = ({ children }) => {
                   <a
                     href="https://tunnel.id"
                     target="_blank"
-                    rel="dofollow"
+                    rel="dofollow noreferrer"
                     className="inline-block mb-3 text-base hover:text-primary"
                   >
                     TunnelID
@@ -161,6 +161,7 @@ const Layout = ({ children }) => {
               <a
                 href="https://www.facebook.com/ajimsof1"
                 target="_blank"
+                rel="noreferrer"
                 className="flex items-center justify-center mr-3 border rounded-full w-9 h-9 border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
               >
                 <svg
@@ -177,6 +178,7 @@ const Layout = ({ children }) => {
               <a
                 href="https://www.instagram.com/ajimsofwan/"
                 target="_blank"
+                rel="noreferrer"
                 className="flex items-center justify-center mr-3 border rounded-full w-9 h-9 border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
               >
                 <svg
@@ -193,6 +195,7 @@ const Layout = ({ children }) => {
               <a
                 href="https://www.linkedin.com/in/ajimsofwan/"
                 target="_blank"
+                rel="noreferrer"
                 className="flex items-center justify-center mr-3 border rounded-full w-9 h-9 border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
               >
                 <svg
@@ -209,6 +212,7 @@ const Layout = ({ children }) => {
               <a
                 href="https://www.tiktok.com/@ajimsofwan"
                 target="_blank"
+                rel="noreferrer"
                 className="flex items-center justify-center mr-3 border rounded-full w-9 h-9 border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
               >
                 <svg

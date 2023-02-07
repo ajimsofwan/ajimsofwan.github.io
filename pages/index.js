@@ -87,6 +87,7 @@ export default function Home() {
                 <a
                   href="https://www.facebook.com/ajimsof1"
                   target="_blank"
+                  rel="noreferrer"
                   className="flex items-center justify-center mr-3 border rounded-full w-9 h-9 border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
                 >
                   <svg
@@ -103,6 +104,7 @@ export default function Home() {
                 <a
                   href="https://www.instagram.com/ajimsofwan/"
                   target="_blank"
+                  rel="noreferrer"
                   className="flex items-center justify-center mr-3 border rounded-full w-9 h-9 border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
                 >
                   <svg
@@ -119,6 +121,7 @@ export default function Home() {
                 <a
                   href="https://www.linkedin.com/in/ajimsofwan/"
                   target="_blank"
+                  rel="noreferrer"
                   className="flex items-center justify-center mr-3 border rounded-full w-9 h-9 border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
                 >
                   <svg
@@ -135,6 +138,7 @@ export default function Home() {
                 <a
                   href="https://www.tiktok.com/@ajimsofwan"
                   target="_blank"
+                  rel="noreferrer"
                   className="flex items-center justify-center mr-3 border rounded-full w-9 h-9 border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
                 >
                   <svg
@@ -228,7 +232,7 @@ export default function Home() {
               <a
                 href="https://akunssh.net"
                 target="_blank"
-                rel="dofollow"
+                rel="dofollow noreferrer"
                 className="max-w-[120px] mx-4 py-4 grayscale opacity-60 trasition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8"
               >
                 <img src="assets/img/clients/akunssh.svg" alt="AkunSSH" />
@@ -236,7 +240,7 @@ export default function Home() {
               <a
                 href="https://tunnel.id"
                 target="_blank"
-                rel="dofollow"
+                rel="dofollow noreferrer"
                 className="max-w-[120px] mx-4 py-4 grayscale opacity-60 trasition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8"
               >
                 <img src="assets/img/clients/tunnelid.svg" alt="TunnelID" />
