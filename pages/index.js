@@ -36,7 +36,7 @@ export default function Home() {
               <div className="relative mt-10 lg:mt-0 lg:right-0">
                 <img
                   className="max-w-full mx-auto"
-                  src="/assets/img/profile.png"
+                  src="assets/img/profile.png"
                   alt="Profile"
                 />
                 <span className="absolute bottom-0 -translate-x-1/2 -z-10 left-1/2 md:scale-125 md:bottom-10">
